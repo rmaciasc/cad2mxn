@@ -1,0 +1,34 @@
+.center-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: radial-gradient(ellipse at 53% 75%, #f2545b, #d74053, rgba(169, 63, 85, 1)); */
+}
+
+.card {
+    background-color: #19323C;
+    flex-direction: row;
+    color: lightcyan;
+    height: 75%;
+    width: 85vw;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bttns {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px)  {
+    .card {
+        flex-direction: column;
+    }
+
+    .lst-bttn {
+        margin-bottom: 0px;
+    }
+}
