@@ -21,7 +21,7 @@ const App = () => {
             </label>
             <input
               id='cad'
-              type='number'
+              type='tel'
               pattern='\d*.d*'
               className='form-control'
               placeholder='$ CAD'
