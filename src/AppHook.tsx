@@ -12,6 +12,7 @@ export const AppHook = () => {
   const changeRate = () => {
     if (mats.newRate) {
       localStorage.setItem('cad-mxn', mats.newRate);
+      setMats({ ...mats, cadMxn: parseFloat(mats.newRate) });
     }
   };
 
