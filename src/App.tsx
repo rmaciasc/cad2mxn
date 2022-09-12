@@ -22,6 +22,7 @@ const App = () => {
             <input
               id='cad'
               type='number'
+              pattern='\d*'
               className='form-control'
               placeholder='$ CAD'
               value={mats.cad || ''}
